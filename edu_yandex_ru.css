@@ -6,137 +6,123 @@
 @author       alee3x (https://github.com/alee3x/)
 @license      No License
 ==/UserStyle== */
-
 @-moz-document domain("education.yandex.ru") {
-html {
-  filter: contrast(0%) !important;
-  filter: invert(1) !important;
+    html {
+        filter: invert(1) !important;
+    }
 
-}
+    img,
+    image {
+        filter: invert(0%);
+    }
 
-img, image {
-  filter: invert(0%);
-}
+    .UserID-Badge {
+        filter: invert(1) !important;
+    }
 
-.UserID-Badge{
-    filter: invert(1) !important;
-}
+    .styles_header__start__ssQxp {
+        filter: invert(100%) !important;
+    }
 
-.styles_header__start__ssQxp{
-    filter: invert(100%) !important;
-}
+    .styles_header__start__ssQxp:hover {
+        filter: invert(33%) !important;
+    }
 
-.styles_header__start__ssQxp:hover{
-    filter: invert(33%) !important;
-}
+    span[data-color^='primary'] {
+        filter: invert(0.7) !important;
+    }
 
-span[data-color^='primary']{
-    filter: invert(0.7) !important;
-}
+    span[data-search-hidden^='true'] {
+        filter: invert(0.2) !important;
+    }
 
-span[data-search-hidden^='true']{
-    filter: invert(0.2) !important;
-}
+    a {
+        color: #dbba6f !important;
+        text-decoration: none;
+        filter: invert(100%);
+    }
 
-a {
-  color: #dbba6f !important;
-  text-decoration: none;
-  filter: invert(100%);
-}
+    a:hover {
+        color: #244590 !important;
+        filter: invert(100%) !important;
+        filter: brightness(60%) !important;
+        filter: saturate(2) !important;
+        text-decoration: underline;
+        opacity: 150% !important;
+    }
 
-a:hover {
-  color: #244590 !important;
-  filter: invert(100%) !important;
-  filter: brightness(60%) !important;
-  filter: saturate(2) !important;
-  text-decoration: underline;
-  opacity: 150% !important;
-}
-
-.styles_navigation-block__p937C{
-    filter:invert(0) !important;
-}
+    .styles_navigation-block__p937C {
+        filter: invert(0) !important;
+    }
 
 
-.styles_content__Lzr6L, a:hover:not([role="button"]) {
-  opacity: 100% !important;
-}
+    .styles_content__Lzr6L,
+    a:hover:not([role="button"]) {
+        opacity: 100% !important;
+    }
 
-pre {
-    background: #e1e1d1!important;
-}
+    pre {
+        background: #e1e1d1 !important;
+    }
 
-/*span[class^='hljs-']{
-    filter: invert(1) !important;
-}*/
-.hljs{
-    filter: invert(1) !important;
-    color: #cdd6f4 !important;
-    background: #1E1E2E !important;
-}
+    .hljs {
+        filter: invert(1) !important;
+        color: #cdd6f4 !important;
+        background: #1E1E2E !important;
+    }
 
-.hljs-type{
-    color: #f9e2af !important;
-    background: #f6f6f600 !important;
-    
-}
-.hljs-function{
-    color: #89b4fa !important;
-    background: #f6f6f600 !important;
-}
-.hljs-title{
-    color: #89b4fa !important;
-    background: #f6f6f600 !important;
-    
-}
-.hljs-params{
-    color: #b4befe !important;
-    background: #f6f6f600 !important;
-    
-}
-.hljs-number{
-    color: #fab387 !important;
-    background: #f6f6f600 !important;
-    
-}
-.hljs-literal{
-    color: #fab387 !important;
-    background: #f6f6f600 !important;
-    
-}
-.hljs-built_in{
-    color: #74c7ec !important;
-    background: #f6f6f600 !important;
-    
-}
-.hljs-meta{
-    color: #cba6f7 !important;
-    background: #f6f6f600 !important;
-    
-}
-.hljs-keyword{
-    color: #cba6f7 !important;
-    background: #f6f6f600 !important;
-    
-}
-.hljs-string{
-    color: #a6e3a1 !important;
-    background: #f6f6f600 !important;
-    
-}
-.hljs-comment{
-    color: #9399b2 !important;
-    background: #f6f6f600 !important;
-    
-}
+    .hljs-type {
+        color: #f9e2af !important;
+        background: #f6f6f600 !important;
+    }
+    .hljs-function {
+        color: #89b4fa !important;
+        background: #f6f6f600 !important;
+    }
+    .hljs-title {
+        color: #89b4fa !important;
+        background: #f6f6f600 !important;
+    }
+    .hljs-params {
+        color: #b4befe !important;
+        background: #f6f6f600 !important;
+    }
+    .hljs-number {
+        color: #fab387 !important;
+        background: #f6f6f600 !important;
+    }
+    .hljs-literal {
+        color: #fab387 !important;
+        background: #f6f6f600 !important;
+    }
+    .hljs-built_in {
+        color: #74c7ec !important;
+        background: #f6f6f600 !important;
+    }
+    .hljs-meta {
+        color: #cba6f7 !important;
+        background: #f6f6f600 !important;
+    }
+    .hljs-keyword {
+        color: #cba6f7 !important;
+        background: #f6f6f600 !important;
+    }
+    .hljs-string {
+        color: #a6e3a1 !important;
+        background: #f6f6f600 !important;
+    }
+    .hljs-comment {
+        color: #9399b2 !important;
+        background: #f6f6f600 !important;
+    }
 
-code[class^='hljs ']{
-    opacity: 200% !important;
-}
+    code[class^='hljs '] {
+        opacity: 200% !important;
+    }
 
-code{
-    background: #00000000 !Important;
-    color: #4b4101 !important;
-    font-family: 'JetBrains Mono NL', 'JetBrains Mono', 'IBM Plex Mono', Consolas, monospace !important;
-}
+    code {
+        background: #00000000 !important;
+        color: #4b4101 !important;
+        font-family: 'JetBrains Mono NL', 'JetBrains Mono', 'IBM Plex Mono', Consolas, monospace !important;
+    }
 }
