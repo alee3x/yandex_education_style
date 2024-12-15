@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name         Тёмная тема для Яндекс.Образования
+@version      20241214.23.45
+@namespace    https://github.com/alee3x/yandex_education_style
+@description  НЕ ГАРАНТИРУЕТСЯ, ЧТО ВСЁ БУДЕТ ПРАВИЛЬНОГО ЦВЕТА!!!
+@author       alee3x (https://github.com/alee3x/)
+@license      No License
+==/UserStyle== */
+
+@-moz-document domain("education.yandex.ru") {
 html {
   filter: contrast(0%) !important;
   filter: invert(1) !important;
@@ -128,4 +138,5 @@ code{
     background: #00000000 !Important;
     color: #4b4101 !important;
     font-family: 'JetBrains Mono NL', 'JetBrains Mono', 'IBM Plex Mono', Consolas, monospace !important;
+}
 }
